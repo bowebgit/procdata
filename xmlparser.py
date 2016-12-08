@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from urllib.request import urlopen
 from xml.etree.ElementTree import parse
 
@@ -14,3 +16,4 @@ for item in doc.iterfind('channel/item'):
 	print(date)
 	print(link)
 	print()
+

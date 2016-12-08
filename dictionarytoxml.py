@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from xml.etree.ElementTree import (Element, tostring)
 
 
